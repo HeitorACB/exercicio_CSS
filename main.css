@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body > header {
+    background-color: rgb(112, 189, 112);
+    padding: 16px 0;
+}
+
+header .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+}
+
+
+header li {
+        display: inline;
+        font-family : Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        margin-left: 16px;
+        
+        
+}
+header li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+header h1 {
+    color: rgb(0, 0, 0);
+}
+
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.articles article img {
+    /* height: 180px; */
+    width: 100%;
+}
+
+.articles article {
+    width: 30%;
+}
+
+section{
+    padding: 16px 0 ;
+}
+section h2,
+.articles article {
+    margin-bottom: 16px;
+}
+
+.articles article h3{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.articles article a {
+    background-color: rgb(37, 37, 146);
+    color: rgb(255, 255, 255);
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+    
+} 
+.articles article a:hover {
+    text-decoration: underline
+
+}
+
+
+.articles article p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.articles article a {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.articles article h3 {
+    font-size:24px }
+
+    section h2{
+        font-size: 32px;
+    }
+
+
+    #sports {
+        background-color: rgb(112, 189, 112);
+    }
+
+    #sports .articles article a {
+        background-color: rgb(17, 64, 28);
+    }
+
+    #economy {
+        background-color: rgb(228, 231, 142);
+    }
+    #economy .articles article a {
+        background-color: rgb(184, 251, 0);
+        color: black;
+    }
+
+    #tecnhology{
+        background-color: rgb(214, 183, 234);
+    }
+    #tecnhology .articles article a {
+        background-color: rgb(115, 65, 191);
+        color: black;
+    }
+
+    #entertainment {
+        background-color: rgb(211, 116, 116);
+    }
+    #entertainment .articles article a {
+        background-color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+    }
